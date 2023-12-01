@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<body>
+    <form method="post">
+        <h5>Enter Module</h5>
+        <input type="text" id="txtName" name="name" />
+        <input type="submit" id="btnSubmit" value="Reminder" asp-page-handler="Submit" />
+    </form>
+    @if (ViewData["Message"] != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@ViewData["Message"]");
+            };
+        </script>
+    }
+</body>
+
+
+    <div class="col-md-4">
+        <b> </b>
+        <h2> Welcome To Module Planner</h2>
+        <p>
+            This app is designed to aide in time management and planning.
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2> Github files</h2>
+        <p>
+            Source files are available here:
+    </p> <a href="https://github.com/IIEWFL/prog6221-poe-ST10029788.git">Visit Github</a>
+
+    </div>
+
+

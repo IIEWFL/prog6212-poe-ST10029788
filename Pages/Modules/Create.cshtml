@@ -1,0 +1,75 @@
+﻿@page
+@model ModuleCalculatorWeb.Pages.Modules.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Module</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Module.moduleCode" class="control-label">Module Code</label>
+                <input asp-for="Module.moduleCode" class="form-control" />
+                <span asp-validation-for="Module.moduleCode" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Module.moduleName" class="control-label">Module Name</label>
+                <input asp-for="Module.moduleName" class="form-control" />
+                <span asp-validation-for="Module.moduleName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Module.credits" class="control-label">Credits</label>
+                <input asp-for="Module.credits" class="form-control" />
+                <span asp-validation-for="Module.credits" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Module.hrs" class="control-label">Hours</label>
+                <input asp-for="Module.hrs" class="form-control" />
+                <span asp-validation-for="Module.hrs" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Module.Weeks" class="control-label">Weeks</label>
+                <input asp-for="Module.Weeks" class="form-control" />
+                <span asp-validation-for="Module.Weeks" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Module.studyHrs" class="control-label">Study Hours</label>
+                <input asp-for="Module.studyHrs" class="form-control" />
+                <span asp-validation-for="Module.studyHrs" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Module.studyDate" class="control-label">Study Date</label>
+                <input asp-for="Module.studyDate" class="form-control" />
+                <span asp-validation-for="Module.studyDate" class="text-danger"></span>
+            </div>
+           
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

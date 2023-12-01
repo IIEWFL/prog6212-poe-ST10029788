@@ -1,0 +1,44 @@
+﻿@page
+@model ModuleCalculatorWeb.Pages.Modules.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Module Code</th>
+            <th>Module</th>
+            <th>Credits</th>
+            <th>Hours</th>
+            <th>Self Study</th>
+            <th>Remaining Hours</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Module)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.moduleCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.moduleName)</td>
+                <td>@Html.DisplayFor(modelItem => item.credits)</td>
+                <td>@Html.DisplayFor(modelItem => item.hrs)</td>
+                <td>@Html.DisplayFor(modelItem => item.selfStudy)</td>
+                <td>@Html.DisplayFor(modelItem => item.remain)</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.moduleID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.moduleID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.moduleID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
