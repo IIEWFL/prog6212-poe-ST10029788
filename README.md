@@ -39,11 +39,10 @@ A. **Download Links**
 B. **To run the program WITHOUT Microsoft Visual Studio:**
 * _Download Net Framework._
 * _Download the files._
-* _Double click on the folder titled "ST10029788_AariyaSingh_PROG6212_POE_Part1"._
+* _Double click on the folder titled "https://github.com/IIEWFL/prog6212-poe-ST10029788.git"._
 * _Double click on the folder titled "bin"._
 * _Double click on the folder titled "Debug"._
-* _Double click on the application titled "ST10029788_AariyaSingh_PROG6212_POE_Part1.exe"._
-
+* _Run the .exe file_
 * This is an executable file that will run the code - certain antiviruses and blockers will not allow the code to be run.
 
 C. **Clone Repository from GitHub onto Visual Studio**
@@ -51,8 +50,7 @@ C. **Clone Repository from GitHub onto Visual Studio**
 
 
  1. Copy the following URL:
-#### https://github.com/IIEWFL/prog6221-part-1-ST10029788.git
-
+https://github.com/IIEWFL/prog6212-poe-ST10029788.git
  2. Open Visual Studio
  3. Navigate to the left of the Start screen, under the Get Started tab
 ![1  Get Started Tab](https://user-images.githubusercontent.com/103359783/235125843-df242d26-a47f-4128-b204-687c461a258b.png)
@@ -68,8 +66,8 @@ C. **Clone Repository from GitHub onto Visual Studio**
 D. **To run the program WITH Microsoft Visual Studio installed, follow these steps:**
 * _Download Microsoft Visual Studio Using the above link._
 * _Download the files onto your desktop._
-* _Double click on the folder titled "ST10029788_AariyaSingh_PROG6212_POE_Part1"._
-* _Double click on the Visual Studio Solution file named "ST10029788_AariyaSingh_PROG6212_POE_Part1.sln"._
+* _Double click on the folder titled "https://github.com/IIEWFL/prog6212-poe-ST10029788.git"._
+* _Double click on the Visual Studio Solution file named "https://github.com/IIEWFL/prog6212-poe-ST10029788.git.sln"._
 * _After the program has finished loading, press on the green play symbol with the words "Start" written next to it._
 Download all the files from the folder to make sure the program executes, as the Calcultions and Module information is in a separate class library_
 
@@ -89,7 +87,6 @@ Nyakundi, H. (2021). How to Write a Good README File for Your GitHub Project. [o
 
 Thomas (2011). WPF rounded corner textbox. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/4779777/wpf-rounded-corner-textbox [Accessed 22 Sep. 2023].
 
-## References for previous versions
 https://www.c-sharpcorner.com/UploadFile/61b832/creating-class-library-in-visual-C-Sharp/
 
 https://www.tutorialsteacher.com/linq/what-is-linqhttps://www.c-sharpcorner.com/UploadFile/raj1979/showdeleteedit-data-in-wpf-datagrid-using-linq-to-sql-classes/
