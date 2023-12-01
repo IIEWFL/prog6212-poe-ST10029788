@@ -71,12 +71,12 @@ D. **To run the program WITH Microsoft Visual Studio installed, follow these ste
 * _Double click on the folder titled "ST10029788_AariyaSingh_PROG6212_POE_Part1"._
 * _Double click on the Visual Studio Solution file named "ST10029788_AariyaSingh_PROG6212_POE_Part1.sln"._
 * _After the program has finished loading, press on the green play symbol with the words "Start" written next to it._
-_Please note: Download all the files from the folder to make sure the program executes with no errors, as the Calcultions and Module information is in a separate class library_
+Download all the files from the folder to make sure the program executes, as the Calcultions and Module information is in a separate class library_
 
 E. Run the SQL script to create the database
 ***
-### code-attributions
-***
+
+
 ## Reference list
 
 adegeo (2023). DataGrid - WPF .NET Framework. [online] Microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/controls/datagrid?view=netframeworkdesktop-4.8 [Accessed 21 Sep. 2023].
@@ -88,3 +88,19 @@ Luiz Gustavo Maia (2017). MSBUILD throws error: The SDK ‘Microsoft.NET.Sdk’ 
 Nyakundi, H. (2021). How to Write a Good README File for Your GitHub Project. [online] freeCodeCamp.org. Available at: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ [Accessed 22 Sep. 2023].
 
 Thomas (2011). WPF rounded corner textbox. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/4779777/wpf-rounded-corner-textbox [Accessed 22 Sep. 2023].
+
+## References for previous versions
+https://www.c-sharpcorner.com/UploadFile/61b832/creating-class-library-in-visual-C-Sharp/
+
+https://www.tutorialsteacher.com/linq/what-is-linqhttps://www.c-sharpcorner.com/UploadFile/raj1979/showdeleteedit-data-in-wpf-datagrid-using-linq-to-sql-classes/
+
+https://stackoverflow.com/questions/11878217/add-items-to-combobox-in-wpf
+
+https://www.c-sharpcorner.com/article/c-sharp-list/
+
+https://www.w3schools.com/html/html_links.asp
+
+https://www.aspsnippets.com/Articles/ASPNet-Core-Razor-Pages-Display-JavaScript-Alert-Message-Box.aspx
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-7.0
+
